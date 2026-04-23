@@ -10,18 +10,179 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+# 🐾 Sistema de Gestión Veterinaria
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Sistema web desarrollado en **PHP con Laravel** para la administración integral de una clínica veterinaria. Permite gestionar mascotas, dueños, citas médicas, historial clínico y servicios.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## 🚀 Características
 
-## Security Vulnerabilities
+* 🐶 Gestión de mascotas (CRUD)
+* 👤 Gestión de dueños
+* 📅 Administración de citas veterinarias
+* 🩺 Historial clínico de cada mascota
+* 💊 Registro de tratamientos y medicamentos
+* 💰 Control de pagos y servicios
+* 🔐 Sistema de autenticación (login/logout)
+* 📊 Panel administrativo con estadísticas
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+---
 
-### License
+## 🛠️ Tecnologías Utilizadas
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+* 🐘 PHP
+* 🚀 Laravel
+* 🗄️ MySQL
+* 🎨 Blade (motor de plantillas)
+* 🌐 HTML, CSS, JavaScript
+
+---
+
+## 📦 Instalación
+
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/isairey/tu-repo.git
+cd tu-repo
+```
+
+---
+
+### 2️⃣ Instalar dependencias
+
+```bash
+composer install
+npm install
+```
+
+---
+
+### 3️⃣ Configurar variables de entorno
+
+Copia el archivo `.env.example`:
+
+```bash
+cp .env.example .env
+```
+
+Configura tu base de datos en `.env`:
+
+```env
+DB_DATABASE=clinica_veterinaria
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+### 4️⃣ Generar clave de aplicación
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 5️⃣ Ejecutar migraciones
+
+```bash
+php artisan migrate
+```
+
+---
+
+### 6️⃣ Ejecutar el servidor
+
+```bash
+php artisan serve
+```
+
+👉 Accede en: http://localhost:8000
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+app/
+ ├── Models/
+ ├── Http/
+ │   ├── Controllers/
+ │   └── Middleware/
+resources/
+ ├── views/
+routes/
+ ├── web.php
+database/
+ ├── migrations/
+```
+
+---
+
+## 🔌 Funcionalidades Principales
+
+### 🐾 Mascotas
+
+* Registro, edición y eliminación de mascotas
+* Asociación con dueños
+
+### 👤 Dueños
+
+* Gestión de información de clientes
+* Historial de mascotas
+
+### 📅 Citas
+
+* Agendar consultas
+* Control de fechas y horarios
+
+### 🩺 Historial Clínico
+
+* Registro de diagnósticos
+* Tratamientos y medicamentos
+
+---
+
+## 🔐 Seguridad
+
+* Autenticación de usuarios
+* Protección CSRF
+* Validación de formularios
+* Control de acceso por roles
+
+---
+
+## 🧪 Pruebas
+
+```bash
+php artisan test
+```
+
+---
+
+## 🤝 Contribuciones
+
+1. Fork del proyecto
+2. Crear una rama (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit (`git commit -m 'Nueva funcionalidad'`)
+4. Push (`git push origin feature/nueva-funcionalidad`)
+5. Crear Pull Request
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Isai Reyes**
+
+```
+```
