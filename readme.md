@@ -46,8 +46,8 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/isairey/tu-repo.git
-cd tu-repo
+git clone https://github.com/isairey/SisVet.git
+cd SisVet
 ```
 
 ---
